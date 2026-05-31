@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Tahzeeb Shah | BS Mathematics | AI Engineer | Data Scientist</title>
+
+<!-- SEO -->
+<meta name="description" content="Portfolio of Muhammad Tahzeeb Shah - BS Mathematics student specializing in AI, Machine Learning, Cryptography, Algorithms, and Data Science in Pakistan.">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0f172a;color:#e2e8f0;overflow-x:hidden}
+
+/* NAV */
+nav{
+position:fixed;top:0;width:100%;
+background:rgba(15,23,42,0.85);
+backdrop-filter:blur(10px);
+display:flex;justify-content:space-between;
+padding:15px 50px;
+z-index:1000;
+border-bottom:1px solid #1e293b;
+}
+nav h1{color:#38bdf8;font-size:20px}
+nav ul{display:flex;gap:25px;list-style:none}
+nav ul li{cursor:pointer;transition:0.3s}
+nav ul li:hover{color:#38bdf8}
+
+/* HERO */
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+flex-direction:column;
+background:radial-gradient(circle,#1e293b,#0f172a);
+}
+.hero h2{font-size:50px}
+.hero span{color:#38bdf8}
+.hero p{max-width:600px;margin-top:10px;color:#94a3b8}
+
+/* SECTIONS */
+section{padding:80px 10%}
+.title{font-size:32px;margin-bottom:30px;color:#38bdf8}
+
+/* CARDS */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+transition:0.3s;
+border:1px solid #334155;
+}
+.card:hover{transform:translateY(-8px);border-color:#38bdf8}
+
+/* SKILLS */
+.skill-bar{
+height:8px;
+background:#334155;
+border-radius:5px;
+margin-top:8px;
+overflow:hidden;
+}
+.skill-bar div{
+height:100%;
+background:#38bdf8;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #1e293b;
+color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h1>TAHZEEB SHAH</h1>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Skills</li>
+<li>Projects</li>
+<li>Contact</li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h2>Hi, I'm <span>Muhammad Tahzeeb Shah</span></h2>
+<p>BS Mathematics | AI Engineer | Machine Learning | Cryptography | Design & Analysis of Algorithms | Data Science</p>
+</div>
+
+<!-- ABOUT -->
+<section>
+<h2 class="title">About Me</h2>
+<div class="card">
+<p>
+I am a BS Mathematics student in Pakistan specializing in computational fields including Artificial Intelligence, Machine Learning, Cryptography, Game Theory, Business Intelligence, and Algorithm Design.
+My goal is to build intelligent systems and solve real-world problems using mathematics and data-driven technologies.
+</p>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section>
+<h2 class="title">Skills</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Python & AI</h3>
+<div class="skill-bar"><div style="width:90%"></div></div>
+</div>
+
+<div class="card">
+<h3>Machine Learning</h3>
+<div class="skill-bar"><div style="width:85%"></div></div>
+</div>
+
+<div class="card">
+<h3>Deep Learning (CNN, LSTM)</h3>
+<div class="skill-bar"><div style="width:80%"></div></div>
+</div>
+
+<div class="card">
+<h3>Cryptography</h3>
+<div class="skill-bar"><div style="width:75%"></div></div>
+</div>
+
+<div class="card">
+<h3>Design & Analysis of Algorithms</h3>
+<div class="skill-bar"><div style="width:88%"></div></div>
+</div>
+
+<div class="card">
+<h3>Business Intelligence</h3>
+<div class="skill-bar"><div style="width:82%"></div></div>
+</div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section>
+<h2 class="title">Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Math GPT</h3>
+<p>AI system for solving mathematical problems using NLP + ML models.</p>
+</div>
+
+<div class="card">
+<h3>Smart Traffic Monitoring System</h3>
+<p>Computer vision system for traffic analysis and control.</p>
+</div>
+
+<div class="card">
+<h3>AI Medical Image Analyzer</h3>
+<p>Deep learning model for disease detection from medical scans.</p>
+</div>
+
+<div class="card">
+<h3>Plant Disease Detection</h3>
+<p>CNN-based system to detect plant diseases from leaf images.</p>
+</div>
+
+<div class="card">
+<h3>AI Skin Disease Detector</h3>
+<p>AI system for dermatology image classification.</p>
+</div>
+
+<div class="card">
+<h3>Algorithm Visualizer</h3>
+<p>Visualization of sorting, graph, DP, greedy algorithms.</p>
+</div>
+
+<div class="card">
+<h3>BI Dashboard</h3>
+<p>Data analytics dashboard using Python & visualization tools.</p>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+<h2 class="title">Education</h2>
+<div class="card">
+<h3>BS Mathematics (Computational Track)</h3>
+<p>University level studies focusing on AI, Algorithms, Statistics, Cryptography, and Data Science.</p>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section>
+<h2 class="title">Contact</h2>
+<div class="card">
+<p>Email: tahzeeb@example.com</p>
+<p>Location: Islamabad, Pakistan</p>
+<p>GitHub: github.com/tahzeeb</p>
+</div>
+</section>
+
+<footer>
+© 2026 Muhammad Tahzeeb Shah | AI + Mathematics Portfolio
+</footer>
+
+</body>
+</html>
